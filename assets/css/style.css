@@ -236,7 +236,7 @@ body {
 .product-card:is(:hover, :focus-within) .product-btn { opacity: 1; }
 
 /* Testing */
-.buy-watsapp {
+.buy-whatsapp {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -246,9 +246,9 @@ body {
   opacity: 0;
 }
 
-.buy-watsapp ion-icon { font-size: 1.4rem; }
+.buy-whatsapp ion-icon { font-size: 1.4rem; }
 
-.product-card:is(:hover, :focus-within) .buy-watsapp { opacity: 1; }
+.product-card:is(:hover, :focus-within) .buy-whatsapp { opacity: 1; }
 /* End */
 
 .product-card .card-banner { position: relative; }
