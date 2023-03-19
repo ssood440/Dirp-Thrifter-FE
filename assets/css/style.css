@@ -26,6 +26,10 @@
   --bg-wild-blue-yonder: hsla(227, 39%, 75%, 1);
   --bg-orange-crayola: hsla(18, 97%, 62%, 1);
   --bg-roman-silver-alpha-30: hsla(210, 9%, 57%, 0.3);
+  --bg-DarkGray: hsla(0, 0%, 50%, 0.9);
+  --bg-LighterGray: hsla(0, 0%, 50%, 0.8);
+  --bg-DarkSilver: hsla(0, 0%, 75%, 1);
+  --bg-InstagramPink: hsla(348.66, 85.23%, 57.25%, 0.4);
 
   /* text color */
   --text-orange-crayola: hsla(18, 97%, 62%, 1);
@@ -138,7 +142,7 @@ html {
 }
 
 body {
-  background-color: var(--bg-white);
+  background-color: var(--bg-DarkSilver);
   color: var(--text-eerie-black-2);
   font-size: 1.6rem;
   line-height: 1.5;
@@ -306,7 +310,7 @@ body {
 }
 
 .header.active {
-  background-color: var(--bg-white);
+  background-color: var(--bg-DarkGray);
   box-shadow: var(--shadow-1);
 }
 
@@ -361,7 +365,7 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-color: var(--bg-wild-blue-yonder);
+  background-color: var(--bg-LighterGray);
   padding-block: 130px 75px;
 }
 
@@ -459,7 +463,7 @@ body {
 }
 
 .social-link {
-  background-color: var(--bg-white);
+  background-color: var(--bg-InstagramPink);
   width: 52px;
   height: 52px;
   display: grid;
